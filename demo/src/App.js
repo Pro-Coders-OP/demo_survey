@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import './Components/Survey'
+import Survey from './Components/Survey';
+import AboutUs from './Components/AboutUs'
 
 function App() {
   return (
     <div className="App">
-       <h1>HELLO WORLD..!</h1>
+         <AboutUs/>
+         {/* <Survey/> */}
     </div>
   );
 }
